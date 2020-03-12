@@ -131,6 +131,9 @@ This section guides you through the steps to configure the Azure AD provisioning
 
 9. Review the user attributes that are synchronized from Azure AD to iProva in the **Attribute Mapping** section. The attributes selected as **Matching** properties are used to match the user accounts in iProva for update operations. Select the **Save** button to commit any changes.
 
+Please note that the Azure Active Directory attribute **Manager** is currently not supported for provisioning to iProva.
+If it is displayed in the mapping, you should remove it by clicking the **Delete** button.
+
 	![iProva User Attributes](media/iprova-provisioning-tutorial/userattributes.png)
 
 10. Under the **Mappings** section, select **Synchronize Azure Active Directory Groups to iProva**.
